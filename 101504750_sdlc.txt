@@ -1,1 +1,2 @@
 DevOps in Software Development Lifecycle 
+Continuous Integration: Automated testing 
