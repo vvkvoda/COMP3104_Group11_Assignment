@@ -1,0 +1,25 @@
+name: COMP3104 Group 11 CI Pipeline
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup completed
+        run: |
+          echo "✅ COMP3104 Group 11 CI Pipeline executed successfully!"
+          echo "Event: ${{ github.event_name }}"
+          echo "Actor: ${{ github.actor }}"
+          echo "Branch: ${{ github.ref }}"
+          echo "Repository: ${{ github.repository }}"
+          
+      - name: Validate files
+        run: |
+          echo "📁 Checking file structure..."
+          ls -la
+          echo "📊 File count: $(find . -name "*.txt" | wc -l) text files"
+          echo "🎯 Student ID: 101504750"
