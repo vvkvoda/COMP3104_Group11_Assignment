@@ -1,0 +1,5 @@
+DevOps in Software Development Lifecycle 
+Continuous Integration: Automated testing 
+Continuous Deployment: Automated releases 
+Monitoring: Performance tracking 
+Result: Faster time-to-market, higher quality 

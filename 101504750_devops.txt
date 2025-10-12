@@ -1,0 +1,5 @@
+COMP3104 DevOps Course Overview 
+Topics: Version Control, CI/CD, Collaboration 
+Tools: Git, GitHub, GitHub Actions, Docker 
+Skills: Automation, Monitoring, Deployment 
+Benefits: Faster deployment, better collaboration 
